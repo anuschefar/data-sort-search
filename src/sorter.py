@@ -1,0 +1,339 @@
+def sort_json(data, key):
+    if isinstance(data, list):
+        return sorted(data, key=lambda x: x.get(key, None))
+    raise ValueError("Data must be a list of dictionaries.")
+
+def sort_xml(root, tag):
+    return sorted(root.findall(tag), key=lambda x: x.text or "")
+Add am 2025-02-02
+Refactor am 2025-02-05
+Fix am 2025-02-07
+Add am 2025-02-19
+Cleanup am 2025-02-22
+Update am 2025-03-24
+Update am 2025-03-25
+Update am 2025-03-30
+Add am 2025-04-04
+Optimize am 2025-04-14
+Fix am 2025-04-24
+Refactor am 2025-04-27
+Optimize am 2025-04-29
+Update am 2025-05-05
+Change am 2025-05-08
+Fix am 2025-05-18
+Refactor am 2025-05-20
+Change am 2025-05-21
+Add am 2025-05-27
+Update am 2025-05-29
+Update am 2025-06-14
+Optimize am 2025-06-16
+Cleanup am 2025-06-29
+Update am 2025-07-09
+Refactor am 2025-07-19
+Improve am 2025-07-21
+Add am 2025-08-10
+Change am 2025-08-11
+Fix Änderung 1 am 2025-02-02
+Fix Änderung 2 am 2025-02-02
+Fix Änderung 3 am 2025-02-02
+Fix Änderung 4 am 2025-02-02
+Update Änderung 1 am 2025-02-02
+Update Änderung 2 am 2025-02-02
+Update Änderung 3 am 2025-02-02
+Update Änderung 4 am 2025-02-02
+Optimize Änderung 1 am 2025-02-04
+Optimize Änderung 2 am 2025-02-04
+Optimize Änderung 3 am 2025-02-04
+Optimize Änderung 4 am 2025-02-04
+Optimize Änderung 5 am 2025-02-04
+Optimize Änderung 6 am 2025-02-04
+Refactor Änderung 1 am 2025-02-05
+Refactor Änderung 2 am 2025-02-05
+Refactor Änderung 1 am 2025-02-05
+Refactor Änderung 2 am 2025-02-05
+Refactor Änderung 3 am 2025-02-05
+Refactor Änderung 4 am 2025-02-05
+Refactor Änderung 5 am 2025-02-05
+Refactor Änderung 6 am 2025-02-05
+Refactor Änderung 7 am 2025-02-05
+Refactor Änderung 8 am 2025-02-05
+Refactor Änderung 9 am 2025-02-05
+Update Änderung 1 am 2025-02-06
+Fix Änderung 1 am 2025-02-07
+Fix Änderung 2 am 2025-02-07
+Fix Änderung 3 am 2025-02-07
+Fix Änderung 4 am 2025-02-07
+Add Änderung 1 am 2025-02-07
+Add Änderung 2 am 2025-02-07
+Add Änderung 3 am 2025-02-07
+Add Änderung 4 am 2025-02-07
+Add Änderung 5 am 2025-02-07
+Add Änderung 1 am 2025-02-10
+Add Änderung 2 am 2025-02-10
+Add Änderung 3 am 2025-02-10
+Add Änderung 4 am 2025-02-10
+Add Änderung 5 am 2025-02-10
+Improve Änderung 1 am 2025-02-10
+Improve Änderung 2 am 2025-02-10
+Improve Änderung 3 am 2025-02-10
+Improve Änderung 4 am 2025-02-10
+Add Änderung 1 am 2025-02-13
+Add Änderung 2 am 2025-02-13
+Add Änderung 3 am 2025-02-13
+Optimize Änderung 1 am 2025-02-17
+Optimize Änderung 2 am 2025-02-17
+Improve Änderung 1 am 2025-02-18
+Refactor Änderung 1 am 2025-02-19
+Refactor Änderung 2 am 2025-02-19
+Update Änderung 1 am 2025-02-25
+Update Änderung 2 am 2025-02-25
+Update Änderung 3 am 2025-02-25
+Update Änderung 4 am 2025-02-25
+Improve Änderung 1 am 2025-02-27
+Improve Änderung 2 am 2025-02-27
+Update Änderung 1 am 2025-03-04
+Update Änderung 2 am 2025-03-04
+Update Änderung 3 am 2025-03-04
+Update Änderung 1 am 2025-03-05
+Update Änderung 2 am 2025-03-05
+Update Änderung 3 am 2025-03-05
+Update Änderung 4 am 2025-03-05
+Update Änderung 5 am 2025-03-05
+Cleanup Änderung 1 am 2025-03-08
+Cleanup Änderung 2 am 2025-03-08
+Fix Änderung 1 am 2025-03-17
+Fix Änderung 2 am 2025-03-17
+Fix Änderung 3 am 2025-03-17
+Add Änderung 1 am 2025-03-19
+Change Änderung 1 am 2025-03-21
+Change Änderung 2 am 2025-03-21
+Change Änderung 3 am 2025-03-21
+Change Änderung 4 am 2025-03-21
+Add Änderung 1 am 2025-03-21
+Add Änderung 2 am 2025-03-21
+Change Änderung 1 am 2025-03-24
+Change Änderung 2 am 2025-03-24
+Change Änderung 3 am 2025-03-24
+Change Änderung 4 am 2025-03-24
+Change Änderung 5 am 2025-03-24
+Fix Änderung 1 am 2025-03-25
+Fix Änderung 2 am 2025-03-25
+Update Änderung 1 am 2025-03-28
+Update Änderung 2 am 2025-03-28
+Update Änderung 3 am 2025-03-28
+Improve Änderung 1 am 2025-03-30
+Improve Änderung 2 am 2025-03-30
+Improve Änderung 3 am 2025-03-30
+Improve Änderung 4 am 2025-03-30
+Refactor Änderung 1 am 2025-03-30
+Refactor Änderung 2 am 2025-03-30
+Refactor Änderung 3 am 2025-03-30
+Refactor Änderung 4 am 2025-03-30
+Refactor Änderung 5 am 2025-03-30
+Add Änderung 1 am 2025-03-31
+Add Änderung 2 am 2025-03-31
+Add Änderung 3 am 2025-03-31
+Fix Änderung 1 am 2025-04-01
+Fix Änderung 2 am 2025-04-01
+Fix Änderung 3 am 2025-04-01
+Fix Änderung 4 am 2025-04-01
+Optimize Änderung 1 am 2025-04-04
+Optimize Änderung 2 am 2025-04-04
+Optimize Änderung 3 am 2025-04-04
+Optimize Änderung 4 am 2025-04-04
+Refactor Änderung 1 am 2025-04-07
+Refactor Änderung 2 am 2025-04-07
+Refactor Änderung 3 am 2025-04-07
+Refactor Änderung 4 am 2025-04-07
+Refactor Änderung 5 am 2025-04-07
+Refactor Änderung 6 am 2025-04-07
+Fix Änderung 1 am 2025-04-10
+Fix Änderung 2 am 2025-04-10
+Refactor Änderung 1 am 2025-04-16
+Refactor Änderung 2 am 2025-04-16
+Refactor Änderung 3 am 2025-04-16
+Refactor Änderung 4 am 2025-04-16
+Optimize Änderung 1 am 2025-04-17
+Optimize Änderung 2 am 2025-04-17
+Improve Änderung 1 am 2025-04-19
+Improve Änderung 2 am 2025-04-19
+Improve Änderung 3 am 2025-04-19
+Improve Änderung 4 am 2025-04-19
+Improve Änderung 5 am 2025-04-19
+Fix Änderung 1 am 2025-04-24
+Fix Änderung 2 am 2025-04-24
+Fix Änderung 3 am 2025-04-24
+Fix Änderung 4 am 2025-04-24
+Fix Änderung 5 am 2025-04-24
+Change Änderung 1 am 2025-04-25
+Change Änderung 2 am 2025-04-25
+Change Änderung 3 am 2025-04-25
+Change Änderung 4 am 2025-04-25
+Change Änderung 5 am 2025-04-25
+Fix Änderung 1 am 2025-04-25
+Fix Änderung 2 am 2025-04-25
+Update Änderung 1 am 2025-04-26
+Cleanup Änderung 1 am 2025-04-28
+Cleanup Änderung 2 am 2025-04-28
+Cleanup Änderung 3 am 2025-04-28
+Cleanup Änderung 4 am 2025-04-28
+Cleanup Änderung 5 am 2025-04-28
+Improve Änderung 1 am 2025-04-28
+Improve Änderung 2 am 2025-04-28
+Improve Änderung 3 am 2025-04-28
+Improve Änderung 4 am 2025-04-28
+Improve Änderung 5 am 2025-04-28
+Optimize Änderung 1 am 2025-04-28
+Optimize Änderung 2 am 2025-04-28
+Optimize Änderung 3 am 2025-04-28
+Optimize Änderung 4 am 2025-04-28
+Optimize Änderung 1 am 2025-05-01
+Change Änderung 1 am 2025-05-04
+Update Änderung 1 am 2025-05-06
+Update Änderung 2 am 2025-05-06
+Cleanup Änderung 1 am 2025-05-11
+Cleanup Änderung 1 am 2025-05-13
+Cleanup Änderung 2 am 2025-05-13
+Cleanup Änderung 3 am 2025-05-13
+Cleanup Änderung 4 am 2025-05-13
+Cleanup Änderung 1 am 2025-05-13
+Cleanup Änderung 2 am 2025-05-13
+Cleanup Änderung 3 am 2025-05-13
+Cleanup Änderung 4 am 2025-05-13
+Cleanup Änderung 5 am 2025-05-13
+Cleanup Änderung 6 am 2025-05-13
+Add Änderung 1 am 2025-05-16
+Add Änderung 2 am 2025-05-16
+Add Änderung 3 am 2025-05-16
+Add Änderung 4 am 2025-05-16
+Add Änderung 5 am 2025-05-16
+Update Änderung 1 am 2025-05-19
+Update Änderung 2 am 2025-05-19
+Update Änderung 3 am 2025-05-19
+Update Änderung 4 am 2025-05-19
+Update Änderung 5 am 2025-05-19
+Optimize Änderung 1 am 2025-05-22
+Optimize Änderung 2 am 2025-05-22
+Optimize Änderung 3 am 2025-05-22
+Optimize Änderung 4 am 2025-05-22
+Optimize Änderung 1 am 2025-05-23
+Optimize Änderung 2 am 2025-05-23
+Optimize Änderung 3 am 2025-05-23
+Optimize Änderung 4 am 2025-05-23
+Refactor Änderung 1 am 2025-05-25
+Refactor Änderung 2 am 2025-05-25
+Refactor Änderung 3 am 2025-05-25
+Refactor Änderung 4 am 2025-05-25
+Optimize Änderung 1 am 2025-05-25
+Optimize Änderung 2 am 2025-05-25
+Optimize Änderung 3 am 2025-05-25
+Optimize Änderung 4 am 2025-05-25
+Optimize Änderung 5 am 2025-05-25
+Optimize Änderung 6 am 2025-05-25
+Optimize Änderung 7 am 2025-05-25
+Optimize Änderung 1 am 2025-05-26
+Optimize Änderung 2 am 2025-05-26
+Optimize Änderung 3 am 2025-05-26
+Optimize Änderung 4 am 2025-05-26
+Refactor Änderung 1 am 2025-06-01
+Refactor Änderung 2 am 2025-06-01
+Refactor Änderung 3 am 2025-06-01
+Refactor Änderung 4 am 2025-06-01
+Refactor Änderung 5 am 2025-06-01
+Refactor Änderung 6 am 2025-06-01
+Refactor Änderung 7 am 2025-06-01
+Change Änderung 1 am 2025-06-04
+Change Änderung 2 am 2025-06-04
+Add Änderung 1 am 2025-06-04
+Add Änderung 2 am 2025-06-04
+Add Änderung 3 am 2025-06-04
+Add Änderung 4 am 2025-06-04
+Cleanup Änderung 1 am 2025-06-08
+Cleanup Änderung 2 am 2025-06-08
+Cleanup Änderung 3 am 2025-06-08
+Optimize Änderung 1 am 2025-06-13
+Change Änderung 1 am 2025-06-22
+Change Änderung 2 am 2025-06-22
+Change Änderung 3 am 2025-06-22
+Improve Änderung 1 am 2025-06-23
+Improve Änderung 2 am 2025-06-23
+Improve Änderung 3 am 2025-06-23
+Refactor Änderung 1 am 2025-06-25
+Update Änderung 1 am 2025-06-28
+Update Änderung 2 am 2025-06-28
+Update Änderung 3 am 2025-06-28
+Update Änderung 4 am 2025-06-28
+Update Änderung 5 am 2025-06-28
+Update Änderung 6 am 2025-06-28
+Refactor Änderung 1 am 2025-06-30
+Refactor Änderung 2 am 2025-06-30
+Refactor Änderung 3 am 2025-06-30
+Refactor Änderung 4 am 2025-06-30
+Change Änderung 1 am 2025-06-30
+Change Änderung 2 am 2025-06-30
+Change Änderung 3 am 2025-06-30
+Change Änderung 4 am 2025-06-30
+Change Änderung 5 am 2025-06-30
+Change Änderung 6 am 2025-06-30
+Add Änderung 1 am 2025-07-03
+Add Änderung 2 am 2025-07-03
+Add Änderung 3 am 2025-07-03
+Optimize Änderung 1 am 2025-07-05
+Cleanup Änderung 1 am 2025-07-06
+Cleanup Änderung 2 am 2025-07-06
+Cleanup Änderung 3 am 2025-07-06
+Cleanup Änderung 4 am 2025-07-06
+Cleanup Änderung 5 am 2025-07-06
+Optimize Änderung 1 am 2025-07-10
+Optimize Änderung 2 am 2025-07-10
+Optimize Änderung 3 am 2025-07-10
+Optimize Änderung 4 am 2025-07-10
+Optimize Änderung 5 am 2025-07-10
+Optimize Änderung 6 am 2025-07-10
+Fix Änderung 1 am 2025-07-17
+Fix Änderung 2 am 2025-07-17
+Optimize Änderung 1 am 2025-07-19
+Optimize Änderung 2 am 2025-07-19
+Optimize Änderung 3 am 2025-07-19
+Optimize Änderung 4 am 2025-07-19
+Update Änderung 1 am 2025-07-24
+Update Änderung 2 am 2025-07-24
+Update Änderung 3 am 2025-07-24
+Update Änderung 4 am 2025-07-24
+Optimize Änderung 1 am 2025-07-29
+Optimize Änderung 2 am 2025-07-29
+Optimize Änderung 3 am 2025-07-29
+Optimize Änderung 4 am 2025-07-29
+Optimize Änderung 5 am 2025-07-29
+Change Änderung 1 am 2025-07-31
+Change Änderung 2 am 2025-07-31
+Improve Änderung 1 am 2025-08-04
+Improve Änderung 2 am 2025-08-04
+Change Änderung 1 am 2025-08-05
+Change Änderung 2 am 2025-08-05
+Change Änderung 3 am 2025-08-05
+Change Änderung 4 am 2025-08-05
+Change Änderung 5 am 2025-08-05
+Cleanup Änderung 1 am 2025-08-07
+Cleanup Änderung 2 am 2025-08-07
+Cleanup Änderung 3 am 2025-08-07
+Cleanup Änderung 1 am 2025-08-11
+Cleanup Änderung 2 am 2025-08-11
+Cleanup Änderung 3 am 2025-08-11
+Cleanup Änderung 4 am 2025-08-11
+Cleanup Änderung 5 am 2025-08-11
+Improve Änderung 1 am 2025-08-11
+Improve Änderung 2 am 2025-08-11
+Improve Änderung 3 am 2025-08-11
+Add Änderung 1 am 2025-02-02
+Add Änderung 2 am 2025-02-02
+Fix Änderung 1 am 2025-02-03
+Fix Änderung 2 am 2025-02-03
+Fix Änderung 3 am 2025-02-03
+Refactor Änderung 1 am 2025-02-01
+Refactor Änderung 2 am 2025-02-01
+Refactor Änderung 3 am 2025-02-01
+Refactor Änderung 4 am 2025-02-01
+Refactor Änderung 5 am 2025-02-01
+Refactor Änderung 6 am 2025-02-01
+Refactor Änderung 7 am 2025-02-01
