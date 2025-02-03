@@ -338,3 +338,6 @@ Refactor Änderung 5 am 2025-02-01
 Refactor Änderung 6 am 2025-02-01
 Refactor Änderung 7 am 2025-02-01
 Cleanup Änderung 1 am 2025-02-02
+Cleanup Änderung 1 am 2025-02-03
+Cleanup Änderung 2 am 2025-02-03
+Cleanup Änderung 3 am 2025-02-03
