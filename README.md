@@ -385,3 +385,7 @@ Improve Änderung 3 am 2025-02-17
 Improve Änderung 4 am 2025-02-17
 Improve Änderung 5 am 2025-02-17
 Improve Änderung 6 am 2025-02-17
+Refactor Änderung 1 am 2025-02-20
+Refactor Änderung 2 am 2025-02-20
+Refactor Änderung 3 am 2025-02-20
+Refactor Änderung 4 am 2025-02-20
