@@ -338,3 +338,5 @@ Cleanup Änderung 1 am 2025-02-21
 Cleanup Änderung 2 am 2025-02-21
 Cleanup Änderung 3 am 2025-02-21
 Cleanup Änderung 4 am 2025-02-21
+Refactor Änderung 1 am 2025-02-22
+Refactor Änderung 2 am 2025-02-22
