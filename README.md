@@ -389,3 +389,5 @@ Refactor Änderung 1 am 2025-02-20
 Refactor Änderung 2 am 2025-02-20
 Refactor Änderung 3 am 2025-02-20
 Refactor Änderung 4 am 2025-02-20
+Fix Änderung 1 am 2025-02-25
+Fix Änderung 2 am 2025-02-25
