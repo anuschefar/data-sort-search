@@ -391,3 +391,10 @@ Refactor Änderung 3 am 2025-02-20
 Refactor Änderung 4 am 2025-02-20
 Fix Änderung 1 am 2025-02-25
 Fix Änderung 2 am 2025-02-25
+Cleanup Änderung 1 am 2025-02-26
+Cleanup Änderung 2 am 2025-02-26
+Cleanup Änderung 3 am 2025-02-26
+Cleanup Änderung 4 am 2025-02-26
+Cleanup Änderung 5 am 2025-02-26
+Cleanup Änderung 6 am 2025-02-26
+Cleanup Änderung 7 am 2025-02-26
