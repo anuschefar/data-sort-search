@@ -370,3 +370,7 @@ Fix Änderung 2 am 2025-03-17
 Fix Änderung 3 am 2025-03-17
 Fix Änderung 4 am 2025-03-17
 Fix Änderung 5 am 2025-03-17
+Refactor Änderung 1 am 2025-03-22
+Refactor Änderung 2 am 2025-03-22
+Refactor Änderung 3 am 2025-03-22
+Refactor Änderung 4 am 2025-03-22
