@@ -479,3 +479,10 @@ Refactor Änderung 1 am 2025-04-26
 Refactor Änderung 2 am 2025-04-26
 Refactor Änderung 3 am 2025-04-26
 Refactor Änderung 4 am 2025-04-26
+Cleanup Änderung 1 am 2025-04-27
+Cleanup Änderung 2 am 2025-04-27
+Cleanup Änderung 3 am 2025-04-27
+Cleanup Änderung 4 am 2025-04-27
+Cleanup Änderung 5 am 2025-04-27
+Cleanup Änderung 6 am 2025-04-27
+Cleanup Änderung 7 am 2025-04-27
