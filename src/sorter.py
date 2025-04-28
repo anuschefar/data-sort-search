@@ -446,3 +446,7 @@ Fix Änderung 4 am 2025-04-16
 Fix Änderung 5 am 2025-04-16
 Improve Änderung 1 am 2025-04-24
 Refactor Änderung 1 am 2025-04-26
+Refactor Änderung 1 am 2025-04-28
+Refactor Änderung 2 am 2025-04-28
+Refactor Änderung 3 am 2025-04-28
+Refactor Änderung 4 am 2025-04-28
