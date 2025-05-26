@@ -497,3 +497,10 @@ Fix Änderung 4 am 2025-05-23
 Fix Änderung 5 am 2025-05-23
 Update Änderung 1 am 2025-05-25
 Update Änderung 2 am 2025-05-25
+Refactor Änderung 1 am 2025-05-26
+Refactor Änderung 2 am 2025-05-26
+Refactor Änderung 3 am 2025-05-26
+Refactor Änderung 4 am 2025-05-26
+Refactor Änderung 5 am 2025-05-26
+Refactor Änderung 6 am 2025-05-26
+Refactor Änderung 7 am 2025-05-26
