@@ -538,3 +538,10 @@ Fix Änderung 6 am 2025-05-25
 Fix Änderung 1 am 2025-05-26
 Fix Änderung 2 am 2025-05-26
 Fix Änderung 3 am 2025-05-26
+Improve Änderung 1 am 2025-05-28
+Improve Änderung 2 am 2025-05-28
+Improve Änderung 3 am 2025-05-28
+Improve Änderung 4 am 2025-05-28
+Improve Änderung 5 am 2025-05-28
+Improve Änderung 6 am 2025-05-28
+Improve Änderung 7 am 2025-05-28
