@@ -566,3 +566,10 @@ Update Änderung 3 am 2025-06-01
 Update Änderung 4 am 2025-06-01
 Refactor Änderung 1 am 2025-06-01
 Refactor Änderung 2 am 2025-06-01
+Cleanup Änderung 1 am 2025-06-16
+Cleanup Änderung 2 am 2025-06-16
+Cleanup Änderung 3 am 2025-06-16
+Cleanup Änderung 4 am 2025-06-16
+Cleanup Änderung 5 am 2025-06-16
+Cleanup Änderung 6 am 2025-06-16
+Cleanup Änderung 7 am 2025-06-16
