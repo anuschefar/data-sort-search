@@ -591,3 +591,10 @@ Improve Änderung 1 am 2025-06-17
 Improve Änderung 2 am 2025-06-17
 Change Änderung 1 am 2025-06-18
 Change Änderung 2 am 2025-06-18
+Refactor Änderung 1 am 2025-06-21
+Refactor Änderung 2 am 2025-06-21
+Refactor Änderung 3 am 2025-06-21
+Refactor Änderung 4 am 2025-06-21
+Refactor Änderung 5 am 2025-06-21
+Refactor Änderung 6 am 2025-06-21
+Refactor Änderung 7 am 2025-06-21
