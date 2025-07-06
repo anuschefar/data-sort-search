@@ -569,3 +569,7 @@ Optimize Änderung 1 am 2025-07-02
 Optimize Änderung 2 am 2025-07-02
 Optimize Änderung 3 am 2025-07-02
 Optimize Änderung 4 am 2025-07-02
+Fix Änderung 1 am 2025-07-06
+Fix Änderung 2 am 2025-07-06
+Fix Änderung 3 am 2025-07-06
+Fix Änderung 4 am 2025-07-06
